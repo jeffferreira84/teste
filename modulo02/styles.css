@@ -1,0 +1,48 @@
+@import "https://fonts.googleapis.com/css2?family=Lobster&display=swap";
+
+*{
+    margin:0;    /*esse trecho zera todas as bordas padrão do navegador*/
+    padding: 0;  /*esse trecho zera todas as bordas padrão do navegador*/
+    border: 0;   /*esse trecho zera todas as bordas padrão do navegador*/
+}
+body {
+    background: #462db6;
+    color: #f3efef;
+    font-family: 'Lobster', cursive;
+}
+header{
+  padding: 42px;
+  border-bottom: 5px solid rgb(137, 204, 13);
+  background: rgba(36, 185, 86, 0.521);
+
+}
+
+header div {
+    text-align: center;
+}
+header div a {
+   color: rgb(12, 11, 11); 
+   font-size: 38px;
+   line-height: 35px; 
+   margin: 0 15px;
+   text-decoration: none;
+}
+header div a:hover {  /*passa o mouse em cima e parece que acende*/
+    color: #0dabe9;
+    transition: color 700ms;
+
+}
+
+#wrapper {
+    text-align: center;
+    padding:20px
+}
+#wrapper img {
+    border-radius: 50%;
+    border: 5px solid #eee2ee;
+}
+
+#wrapper h1{
+    font-size: 42px;
+    line-height:120px
+}
